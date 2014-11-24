@@ -13,7 +13,7 @@ position: 101
 <h1>{{ category.name }}</h1>
 <ul class='list-unstyled clearfix'>
   {% assign category = category._slug %}
-  {% with_scope categories: 'category' %}
+  {% with_scope categories: category %}
   {% for product in contents.products %}
   <li class='col-xs-3'>
     <h2>{{ product.name }}</h2>
