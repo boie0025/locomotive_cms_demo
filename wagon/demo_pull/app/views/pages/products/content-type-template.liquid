@@ -1,0 +1,20 @@
+---
+title: Products Template
+slug: content_type_template
+listed: false
+published: true
+cache_strategy: none
+response_type: text/html
+position: 100
+content_type: products
+---
+{% extends parent %}
+{% block main %}
+<h1>{{ product.name }}</h1>
+<div class='col-xs-6'>
+  <p>{{ product.description }}</p>
+</div>
+<div class='col-xs-6'>
+  <img class='img img-responsive' src='{{ product.image.url }}'>
+</div>
+{% endblock %}

@@ -1,0 +1,14 @@
+---
+title: Products Template
+content_type: products
+published: true
+listed: false
+---
+{% extends parent %}
+{% block main %}
+%h1 {{ product.name }}
+.col-xs-6
+  %p {{ product.description }}
+.col-xs-6
+  %img.img.img-responsive{ src: "{{ product.image.url }}" }
+{% endblock %}

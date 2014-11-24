@@ -1,0 +1,28 @@
+---
+title: Products
+slug: products
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 101
+---
+{% extends 'parent' %}
+{% block main %}
+{% for category in contents.categories %}
+<h1>{{ category.name }}</h1>
+<ul class='list-unstyled clearfix'>
+  {% assign category = category._slug %}
+  {% with_scope categories: 'category' %}
+  {% for product in contents.products %}
+  <li class='col-xs-3'>
+    <h2>{{ product.name }}</h2>
+    <a href='/products/{{ product._slug }}'>
+      <img class='img img-responsive' src='{{ product.image.url }}'>
+    </a>
+  </li>
+  {% endfor %}
+  {% endwith_scope %}
+</ul>
+{% endfor %}
+{% endblock main %}

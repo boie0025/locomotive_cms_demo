@@ -1,0 +1,15 @@
+---
+title: Content Nested
+slug: content-nested
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+editable_elements:
+  main/main: <p>Hello world</p>
+---
+{% extends 'parent' %}
+{% block 'sub' %}
+sub
+{% endblock %}

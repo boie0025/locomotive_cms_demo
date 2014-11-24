@@ -1,0 +1,17 @@
+---
+title: Content
+slug: content
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 101
+editable_elements:
+  main/main: "<p>Hello world</p>"
+---
+{% extends parent %}
+{% block main %}
+{% editable_text 'main' %}
+<p>Hello world</p>
+{% endeditable_text 'main' %}
+{% endblock %}

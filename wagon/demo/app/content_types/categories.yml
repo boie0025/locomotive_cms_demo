@@ -1,0 +1,22 @@
+---
+name: Categories
+slug: categories
+label_field_name: name
+order_by: created_at
+order_direction: asc
+fields:
+- products:
+    label: Products
+    type: has_many
+    required: true
+    unique: false
+    localized: false
+    class_name: products
+    inverse_of: categories
+    ui_enabled: true
+- name:
+    label: Name
+    type: string
+    required: true
+    unique: false
+    localized: false

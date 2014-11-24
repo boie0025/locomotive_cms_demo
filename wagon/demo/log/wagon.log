@@ -1,0 +1,752 @@
+# Logfile created on 2014-11-06 20:39:50 -0600 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-11-06 20:55:08 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.2ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-06 20:55:09 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 122.8ms
+
+[0m
+      template => Liquid Syntax error ('Unknown tag 'scope'' on 'products')
+      raw_template => Liquid Syntax error ('Unknown tag 'scope'' on 'products')
+* Reloaded "pages", "snippets" at 2014-11-17 23:56:24 -0600
+[0;97;49mStarted GET "/" at 2014-11-17 23:56:57 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 11.0ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-17 23:56:59 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.3ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-17 23:57:00 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 283.4ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:57:12 -0600
+[0;97;49mStarted GET "/products" at 2014-11-17 23:57:13 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:58:04 -0600
+[0;97;49mStarted GET "/products" at 2014-11-17 23:58:05 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:58:24 -0600
+[0;97;49mStarted GET "/products" at 2014-11-17 23:58:26 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-17 23:58:27 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+[0;97;49mStarted GET "/" at 2014-11-17 23:58:35 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/index.liquid.haml:1:in `Index'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:58:46 -0600
+[0;97;49mStarted GET "/" at 2014-11-17 23:58:46 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:59:03 -0600
+[0;97;49mStarted GET "/" at 2014-11-17 23:59:06 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/index.liquid.haml:1:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-11-17 23:59:17 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/index.liquid.haml:1:in `Index'
+[0m
+[0;97;49mStarted GET "/" at 2014-11-17 23:59:18 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/index.liquid.haml:1:in `Index'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:59:23 -0600
+* Reloaded "pages", "snippets" at 2014-11-17 23:59:25 -0600
+[0;97;49mStarted GET "/" at 2014-11-17 23:59:28 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 9.4ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-17 23:59:29 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:59:44 -0600
+[0;97;49mStarted GET "/content" at 2014-11-17 23:59:46 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.0ms
+
+[0m
+[0;97;49mStarted GET "/content/level2" at 2014-11-17 23:59:47 -0600[0m
+Detecting locale EN
+Found page "Level2" [content/level2]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.0ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-17 23:59:48 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-17 23:59:54 -0600
+[0;97;49mStarted GET "/content" at 2014-11-17 23:59:55 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/content.liquid.haml:19:in `Content'
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-18 00:01:15 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/content.liquid.haml:19:in `Content'
+[0m
+[0;31;49m      template => can't be blank
+[0m
+[0;97;49mStarted GET "/content/content-nested" at 2014-11-18 00:04:07 -0600[0m
+Detecting locale EN
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/404.liquid.haml:5:in `Page not found'
+[0m
+[0;97;49mStarted GET "/content/content-nested" at 2014-11-18 00:04:08 -0600[0m
+Detecting locale EN
+[0;31;49m[ERROR] undefined method `snippets' for nil:NilClass - ./app/views/pages/404.liquid.haml:5:in `Page not found'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:04:15 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:04:17 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:05:25 -0600
+[0;97;49mStarted GET "/content/content-nested" at 2014-11-18 00:05:27 -0600[0m
+Detecting locale EN
+  Rendered snippet page_header
+[0;32;49mCompleted 404 Not Found in 14.4ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-18 00:05:29 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 5.4ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:05:30 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+[0;97;49mStarted GET "/" at 2014-11-18 00:05:43 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.3ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:05:44 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:06:13 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:06:14 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:06:17 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:06:17 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:06:19 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:06:21 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:06:28 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:06:30 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+[0;97;49mStarted GET "/" at 2014-11-18 00:07:31 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 3.5ms
+
+[0m
+[0;97;49mStarted GET "/content" at 2014-11-18 00:07:32 -0600[0m
+Detecting locale EN
+Found page "Content" [content]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.0ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:07:33 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+[0;97;49mStarted GET "/products/1" at 2014-11-18 00:07:36 -0600[0m
+Detecting locale EN
+Found page "Products Template" [products/*]
+  Rendered snippet page_header
+[0;32;49mCompleted 404 Not Found in 6.6ms
+
+[0m
+[0;97;49mStarted GET "/" at 2014-11-18 00:07:37 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:07:39 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:08:08 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:08:09 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] Unknown tag 'endfor' - ./app/views/pages/products.liquid.haml:20:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:08:11 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:08:13 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:08:20 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:08:20 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] Unknown tag 'endwith_scope' - ./app/views/pages/products.liquid.haml:16:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:08:23 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:08:24 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:08:29 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:10:04 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:08 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 60.3ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:10 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:10:16 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:17 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:10:19 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:20 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == Category 1
+[with_scope] conditions: categories == Category 1
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:10:26 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:26 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:10:56 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:10:57 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == categories._slug
+[with_scope] conditions: categories == categories._slug
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:00 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:09 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:15 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:16 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:11:16 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: category == number
+[0;31;49m[ERROR] undefined method `category' for #<Locomotive::Mounter::Models::ContentEntry:0x00000004463508> - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:21 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:11:22 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:11:55 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:12:05 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.7ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:12:36 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 158.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:13:07 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:13:09 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:13:15 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:14:10 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:14:14 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:14:19 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:14:20 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == food
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 13.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:14:33 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:14:39 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:14:40 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:14:50 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:14:50 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 14.9ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:14:55 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:00 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:00 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:04 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:05 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == Category 1
+[with_scope] conditions: categories == Category 1
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:08 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:09 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category.name
+[with_scope] conditions: categories == Food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:14 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:14 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:35 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:41 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:41 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == categories._slug
+[with_scope] conditions: categories == categories._slug
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 8.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:45 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:45 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.5ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:15:58 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:15:59 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.0ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:02 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:04 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:05 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == asd
+[with_scope] conditions: categories == asd
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:10 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:10 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:17 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:18 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[0;31;49m[ERROR] undefined method `slug' for #<Locomotive::Mounter::Models::ContentEntry:0x000000020b4120> - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:21 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:22 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[0;31;49m[ERROR] undefined method `asd' for #<Locomotive::Mounter::Models::ContentEntry:0x000000020b4120> - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:25 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:26 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 17.9ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:29 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:29 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == new
+[with_scope] conditions: categories == new
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.1ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:36 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:36 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == new
+[with_scope] conditions: categories == new
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 15.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:41 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:16:46 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:16:46 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == new
+[with_scope] conditions: categories == new
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 12.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:17:18 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:17:19 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[0;31;49m[ERROR] undefined method `slug' for #<Locomotive::Mounter::Models::ContentEntry:0x000000020b4120> - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:17:22 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:17:23 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] conditions: categories == number
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 18.3ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:17:33 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:17:33 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:17:40 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:17:51 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:17:51 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category._slug
+[with_scope] order_by name asc
+[with_scope] conditions: categories == food
+[with_scope] order_by name asc
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 19.4ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-18 00:26:42 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category.id
+[with_scope] order_by name asc
+[with_scope] conditions: categories == new
+[with_scope] order_by name asc
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 10.6ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:26:47 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:26:48 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == new
+[with_scope] order_by name asc
+[with_scope] conditions: categories == new
+[with_scope] order_by name asc
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 20.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:30:29 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:30:32 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == number
+[with_scope] order_by name asc
+[0;31;49m[ERROR] undefined method `scan' for Locomotive::Wagon::Liquid::Drops::ContentEntry:Locomotive::Wagon::Liquid::Drops::ContentEntry - ./app/views/pages/products.liquid.haml:7:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:32:29 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:32:31 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category
+[with_scope] order_by name asc
+[with_scope] conditions: categories == food
+[with_scope] order_by name asc
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.2ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:32:38 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:32:39 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 23.8ms
+
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:46:27 -0600
+* Reloaded "pages", "snippets" at 2014-11-18 00:46:28 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:46:31 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+[0;31;49m[ERROR] Tag '{%' was not properly terminated with regexp: /\%\}/ - ./app/views/pages/products.liquid.haml:14:in `Products'
+[0m
+* Reloaded "pages", "snippets" at 2014-11-18 00:46:36 -0600
+[0;97;49mStarted GET "/products" at 2014-11-18 00:46:37 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+[with_scope] conditions: categories == category
+[with_scope] conditions: categories == food
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 16.9ms
+
+[0m
+The API key is invalid. (401)
+unable to get an API token: The API key is invalid. (401)

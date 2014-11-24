@@ -1,0 +1,37 @@
+---
+name: Products
+description: A description of the content type for the editors
+slug: products
+label_field_name: name
+order_by: manually
+order_direction: asc
+fields:
+- name:
+    label: Name
+    type: string
+    hint: Product Name
+    required: true
+    unique: false
+    localized: false
+- description:
+    label: Description
+    type: string
+    hint: Product Description
+    required: false
+    unique: false
+    localized: false
+- image:
+    label: Image
+    type: file
+    hint: Product Image
+    required: false
+    unique: false
+    localized: false
+- categories:
+    label: Categories
+    type: belongs_to
+    required: false
+    unique: false
+    localized: false
+    class_name: categories
+    ui_enabled: true

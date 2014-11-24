@@ -1,0 +1,24 @@
+---
+title: Products
+parent: index
+listed: true
+published: true
+---
+{% extends 'parent' %}
+{% block main %}
+
+{% for category in contents.categories %}
+%h1 {{ category.name }}
+%ul.list-unstyled.clearfix
+  {% assign category = category._slug %}
+  {% with_scope categories: category %}
+  {% for product in contents.products %}
+  %li.col-xs-3
+    %h2 {{ product.name }}
+    %a{ href: '/products/{{ product._slug }}'}
+      %img.img.img-responsive{ src: "{{ product.image.url }}" }
+  {% endfor %}
+  {% endwith_scope %}
+{% endfor %}
+
+{% endblock main %}

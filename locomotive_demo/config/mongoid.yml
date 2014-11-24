@@ -1,0 +1,8 @@
+development:
+  sessions:
+    default:
+      database: locomotive_dev_demo
+      hosts:
+        - localhost:27017
+  options:
+    identity_map_enabled: true

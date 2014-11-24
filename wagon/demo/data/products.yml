@@ -1,0 +1,21 @@
+---
+- Beer:
+    _slug: beer
+    description: Beer.
+    image: /samples/products/beer/beer_PNG2330.png
+    categories: number
+- More Beer:
+    _slug: more-beer
+    description: More Beer.
+    image: /samples/products/more-beer/beer_PNG2330.png
+    categories: number
+- Food:
+    _slug: food
+    description: Food
+    image: /samples/products/food/Foods__cropped_.jpg
+    categories: food
+- More Food:
+    _slug: more-food
+    description: FOOD
+    image: /samples/products/more-food/Foods__cropped_.jpg
+    categories: food

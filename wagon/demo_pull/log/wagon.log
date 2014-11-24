@@ -1,0 +1,19 @@
+# Logfile created on 2014-11-06 20:39:50 -0600 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-11-06 20:55:08 -0600[0m
+Detecting locale EN
+Found page "Index" [index]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 7.2ms
+
+[0m
+[0;97;49mStarted GET "/products" at 2014-11-06 20:55:09 -0600[0m
+Detecting locale EN
+Found page "Products" [products]
+  Rendered snippet page_header
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 122.8ms
+
+[0m
+      template => Liquid Syntax error ('Unknown tag 'scope'' on 'products')
+      raw_template => Liquid Syntax error ('Unknown tag 'scope'' on 'products')
